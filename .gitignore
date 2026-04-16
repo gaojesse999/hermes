@@ -1,0 +1,29 @@
+# Runtime & cache
+audio_cache/
+image_cache/
+cache/
+logs/
+sessions/
+state.db*
+*.pid
+*.lock
+gateway_state.json
+.update_check
+models_dev_cache.json
+.skills_prompt_snapshot.json
+*.db-shm
+*.db-wal
+
+# Large external codebase
+hermes-agent/
+node/
+node_modules/
+
+# Compiled
+__pycache__/
+
+# Platform dirs with runtime state
+whatsapp/
+
+# Sock/pid
+*.sock

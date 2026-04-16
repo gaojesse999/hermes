@@ -1,0 +1,9 @@
+name: rtk_terminal
+version: 0.1.0
+description: Route Hermes terminal usage through RTK for command rewriting and tracking
+author: Hermes
+provides_tools:
+  - rtk_terminal
+provides_hooks:
+  - pre_llm_call
+  - pre_tool_call
