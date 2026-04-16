@@ -24,6 +24,7 @@ __pycache__/
 
 # Platform dirs with runtime state
 whatsapp/
+weixin/
 
 # Sock/pid
 *.sock
